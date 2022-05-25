@@ -3,10 +3,12 @@ package br.com.controle.investimentos.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import br.com.controle.investimentos.dao.AtivoDAO;
 import br.com.controle.investimentos.models.Ativo;
 
+@Component
 public class IAtivoService {
     @Autowired
     private AtivoDAO dao; 
